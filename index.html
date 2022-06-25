@@ -47,11 +47,14 @@
   </head>
   <body data-spy="scroll" data-target="#EpicNavbar">
     <!-- ------------------- START NAVBAR ------------------- -->
-    <header>
+    <header id="header00">
       <nav id="EpicNavbar" class="navbar px-3 bg-light fixed-top">
-        <a class="navbar-brand" href="#"><h3><i class="bx bxs-home"></i></h3></a>
+        <a class="navbar-brand" href="#"><h3></h3></a>
 
         <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#header00"><h5>Home</h5></a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#About"><h5>O mnie</h5></a>
           </li>
@@ -72,30 +75,29 @@
     </header>
     <!-- ------------------- STOP NAVBAR ------------------- -->
     <!-- ------------------- START HOME ------------------- -->
-    <section class="container-fluid">
-      <div class="row">
+    <section>
+      <div id="background0">
         <div data-spy="scroll" data-target="#EpicNavbars" data-offset="0">
-          <div id="About">
-            <div id="background0" class="container-fluid pb-md-5">
-              <h1 class="pt-md-5 pb-md-5 align-items-cente text-center">Cześć!</h1>
-            </div>
-            <div class="container-fluid pt-md-5 pb-md-5">
-              <h2 class="pb-md-1 pt-md-5 text-center align-items-end">
+          <div id="header00"  class="container-fluid pt-md-5 pb-md-5">
+            <h1 class="text-center pt-md-5 pb-md-5">
+              Cześć!
+            </h1>
+            <h2 class="pb-md-3 pt-md-5 text-center align-items-end">
                 Pomogę Ci stworzyć <br />
                 wymarzone miejsce w sieci <br><br>
                 <i class="bi bi-mouse"></i>
+                
               </h2>
-
-              <div class="col-12 pt-md-5"></div>
-            </div>
           </div>
+          </div></div>
+         
           <!-- ------------------- STOP HOME ------------------- -->
           <!-- ------------------- START ABOUT ------------------- -->
-          <section id="About" class="container-fluid pb-md-5">
-            <div class="container-fluid pb-md-5">
+          <section id="About" class="container-fluid pb-md-5 pt-md-5">
+            <div class="container-fluid pb-md-5 pt-md-5">
               <div class="row">
-                <div class="col-xxl-12 text-center pb-md-1">
-                  <h1 class="display-1 tekst-light">O mnie</h1>
+                <div class="col-xxl-12 text-center  pt-md-5 pb-md-1">
+                  <p class="display-1 tekst-light">O mnie</p>
                 </div>
                 <div class="col-xxl-1"></div>
                 <div class="col-xxl-4 pt-md-1">
@@ -158,9 +160,9 @@
           <!-- ------------------- START OFFER ----------- -->
           <section id="Oferta">
             <div class="container-fluid pt-md-5 pb-md-5">
-              <div class="row">
+              <div class="row pb-md-5">
                 <div class="col-xxl-12 text-center pt-md-4 pb-md-1">
-                  <h1>Oferta</h1>
+                  <p>Oferta</p>
                 </div>
                 <div class="col-xxl-2"></div>
                 <div class="col-xxl-4">
@@ -204,7 +206,7 @@
                     portfolio na GitHub (<i class="bx bxl-github"></i>).
                   </h4>
                   <div class="text-center pt-4 pb-4">
-                    <a href="./offer.html"><button type="button" class="btn btn-outline-secondary">
+                    <a href="./offer.html"><button type="button" class="btn btn-outline-secondary shadow">
                       Zobacz więcej
                     </button></a>
                   </div>
@@ -221,23 +223,39 @@
                 <div class="col-xxl-1"></div>
               </div>
             </div>
+
+          </section>
+          <section id="section001" class="container shadow-lg pt-3 pb-5">
+            <div class="row justify-content-md-center pt-md-3 pb-md-3">
+              <div class="col-auto text-center">
+                <h3>
+                  Możemy współpracować na różnych etapach Twojego biznesu.
+                  
+                </h3>
+                <h4>
+                  Zaczynając od zaprojektowania nowej strony internetowej lub sklepu,
+                  poprzez jej wykonanie, ale również w celu modernizacji strony lub
+                  unowocześnieniu jej wyglądu.
+                </h4>
+              </div>
+            </div>
           </section>
           <!-- ------------------- STOP OFFER ------------ -->
           <!-- ------------------- START PORTFOLIO -------------- -->
     <section id="Portfolio">
-      <div class="container-fluid pt-md-5 pb-md-1">
-        <div class="row">
-          <div class="col-xxl-12 text-center pb-md-5">
-            <h1>Portfolio</h1>
+      <div class="container pt-md-5 pb-md-5">
+        <div class="row pt-md-5 pb-md-5">
+          <div class="col-xxl-12 text-center">
+            <p>Portfolio</p>
             <h2>Moje projekty</h2>
           </div>
           <div class="row">
           
           <div class="col-xxl-5">
-            <img class="img-fluid" src="./Monitor2.jpg" alt="">
+            <img class="img-fluid" src="./Monitor2.jpg" alt="photo">
           </div>
           <div class="col-xxl-1"></div>
-          <div class="col-xxl-4 text-center pt-md-5">
+          <div class="col-xxl-5 text-center pt-md-5">
             <h3 class="pt-md-5">Zobacz realizacje</h3>
             <h4 class="pt-md-5">Chcesz dołączyć do grona zadowolonych klientów?</h4>
             <div class="text-center pt-md-5">
@@ -252,11 +270,11 @@
     </section>
     <!-- ------------------- STOP PORTFOLIO ---------------- -->
     <!-- ------------------- START FOOTER ------------------- -->
-    <section id="Kontakt">
+    <section id="Kontakt" class="shadow-lg">
       <div class="container-fluid pt-md-5 pb-md-5">
         <div class="row">
           <div class="col-xxl-12 text-center pt-md-5 pb-md-3">
-            <h1>Kontakt</h1>
+            <p>Kontakt</p>
             <h3>Masz pytanie? Napisz do mnie.</h3>
           </div>
             <h4 class="col-xxl-3"></h4>
@@ -307,7 +325,7 @@
   </section>
 
     <!-- ------------------- START FOOTER ------------------- -->
-    <footer class="text-center pt-5"><h4>2022 © Wszystkie prawa zastrzeżone</h4></footer>
+    <footer id="footer" class="text-center pt-md-2 pb-md-2"><h4>2022 © Wszystkie prawa zastrzeżone</h4></footer>
     <!-- ------------------- STOP FOOTER ------------------- -->
 
     <!-- Optional JavaScript -->
