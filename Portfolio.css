@@ -39,13 +39,19 @@ body {
 }
 #id1 {
   background-color: #e8e8e8;
-  height: 80vh;
+  height: 90vh;
+  width: 70vw;
+  margin-bottom: 10vh;
+  margin-top: 8vh;
   border-radius: 50px 900px 50px 800px;
 }
 #id2 {
   background-color: #e8e8e8;
-  height: 80vh;
-  border-radius: 900px 50px 900px 50px;
+  height: 90vh;
+  width: 70vw;
+  margin-bottom: 10vh;
+  margin-top: 8vh;
+  border-radius: 900px 200px 900px 200px;
 }
 #id3 {
   margin-top: 10vh;
@@ -60,39 +66,40 @@ body {
   box-shadow: 4px 4px 4px rgba(98, 98, 98, 0.6);
 }
 h1 {
-  font-family: "Cinzel", serif;
-  color: white;
+  font-family: "Cinzel", serif !important;
+  color: white !important;
   font-size: 11rem !important;
   text-shadow: 2px 2px 2px rgba(144, 144, 144, 0.3);
 }
 p {
-  font-family: "Cinzel", serif;
-  color: #e8e8e8;
+  font-family: "Cinzel", serif !important;
+  color: #e8e8e8 !important;
   font-size: 8rem !important;
   text-shadow: 2px 2px 2px rgba(224, 224, 224, 0.3);
 }
 
 h2 {
-  font-family: "Cinzel", serif;
+  font-family: "Cinzel", serif !important;
   font-size: 3rem !important;
   color: white !important;
 }
 
 h3 {
   font-size: 1.8rem !important;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Cormorant Garamond", serif !important;
   color: #5f5f5f !important;
 }
 
 h4 {
   font-size: 1.1rem !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   color: #5f5f5f !important;
 }
 
 h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   color: #5f5f5f;
+  font-size: 1.4rem !important;
 }
 
 @media (min-width: 992px) and (max-width: 1600px) {
